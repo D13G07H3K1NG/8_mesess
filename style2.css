@@ -1,0 +1,25 @@
+body{
+    background-color: bisque;
+}
+header{
+    background-color: antiquewhite;
+    text-align: center;
+    padding:1cqmax;
+}
+h1{
+    color:rgb(0, 0, 0);
+}
+.Cartita{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: x-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 40px;
+    background-color: rgba(237, 234, 164, 0.479);
+}
+footer{
+    text-align: center;
+    font-size: large;
+    font: bold;
+
+}
