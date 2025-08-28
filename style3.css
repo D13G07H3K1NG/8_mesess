@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+}
+
+.sky {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#000033, #000066); /* Gradiente de azul oscuro a más claro */
+    position: relative;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    z-index: 100; /* Asegura que el texto esté por encima de las estrellas */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para que el texto resalte */
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/* Estilo de la estrella */
+.star {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%; /* Para que sea un círculo */
+    animation: twinkle linear infinite;
+}
+
+/* Animación de parpadeo */
+@keyframes twinkle {
+    0%, 100% { opacity: 0.5; transform: scale(0.5); }
+    50% { opacity: 1; transform: scale(1.2); }
+}
+
